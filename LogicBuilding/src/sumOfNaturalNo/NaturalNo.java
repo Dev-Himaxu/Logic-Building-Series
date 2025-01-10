@@ -2,8 +2,6 @@
 
 package sumOfNaturalNo;
 
-import java.util.Iterator;
-
 public class NaturalNo {
 	public static void main(String[] args) {
 		int num = 5;

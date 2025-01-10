@@ -1,3 +1,5 @@
+//Que: Check If Number is perfect square or not.
+
 package perfectSquare;
 
 public class Perfect {

@@ -1,4 +1,4 @@
-//Que: Find the greatest common divisor(GCD).
+//Que: Find the greatest common divisor(GCD)Or HCF(Highest common factor).
 
 package greatestCommonDivisor;
 
