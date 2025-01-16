@@ -1,4 +1,4 @@
-// Que: find the sum of digits using recursion
+// Que: find the sum of digits using recursion..
 
 package sumOfDigitRecursion;
 
