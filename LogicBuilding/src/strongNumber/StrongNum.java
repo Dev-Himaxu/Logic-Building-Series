@@ -16,7 +16,7 @@ public class StrongNum {
 		}
 		return fact;
 	}
-
+	
 	public static void main(String[] args) {
 		int num = 145;
 		int result = 0;
