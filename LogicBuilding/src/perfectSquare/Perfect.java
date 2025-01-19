@@ -6,7 +6,7 @@ public class Perfect {
 	public static void main(String[] args) {
 		int n = 67;
 		boolean isPerfectSquare = false;
-		for (int i = 0; i <= n; i++) {
+		for (int i = 0; i <= n/2; i++) {
 			if (i * i == n) {
 				isPerfectSquare = true;
 				break;
