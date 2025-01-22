@@ -16,6 +16,7 @@ public class Order {
 				}
 			}
 		}
+		// arr.length/2 = half of array's index+1
 		for (int i = arr.length / 2; i < arr.length; i++) {
 			for (int j = arr.length / 2; j < arr.length - 1; j++) {
 				if (arr[j] < arr[j + 1]) {
