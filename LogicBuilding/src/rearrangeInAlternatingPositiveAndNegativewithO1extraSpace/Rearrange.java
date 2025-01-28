@@ -6,8 +6,9 @@ import java.util.Arrays;
 
 public class Rearrange {
 	public static void main(String[] args) {
-		int arr[] = { -1, 3, 4, -2, 3, -3 ,8};
+		int arr[] = { -1, 3, 4, -2, 3, -3, 8 };
 		int index = 0;
+		int neg = 1;
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] < 0) {
 				int temp = arr[i];
@@ -15,14 +16,11 @@ public class Rearrange {
 				arr[index++] = temp;
 			}
 		}
-		System.out.println(Arrays.toString(arr));
-		int neg = 1;
-		while (neg != arr.length-1 || index != arr.length-1) {
+		while (neg < arr.length && index < arr.length) {
 			int temp = arr[neg];
 			arr[neg] = arr[index];
 			arr[index++] = temp;
-			neg++;
-			neg++;
+			neg += 2;
 		}
 		System.out.println(Arrays.toString(arr));
 	}

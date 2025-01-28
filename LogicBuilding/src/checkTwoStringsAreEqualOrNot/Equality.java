@@ -4,8 +4,7 @@ package checkTwoStringsAreEqualOrNot;
 
 public class Equality {
 	public static void main(String[] args) {
-		String str = "hello";
-		String str1 = "hello";
+		String str = "hello", str1 = "hello";
 		boolean isEqual = true;
 		if (str.length() != str1.length()) {
 			isEqual = false;

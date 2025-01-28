@@ -5,15 +5,15 @@ package countNoOfVowelsInString;
 public class VowelsCount {
 	public static void main(String[] args) {
 		String str = "Hello World";
+		char[] ch = str.toCharArray();
 		int count = 0;
-		for (int i = 0; i < str.length(); i++) {
-			if (str.charAt(i) == 'A' || str.charAt(i) == 'a' || str.charAt(i) == 'E' || str.charAt(i) == 'e'
-					|| str.charAt(i) == 'I' || str.charAt(i) == 'i' || str.charAt(i) == 'O' || str.charAt(i) == 'o'
-					|| str.charAt(i) == 'U' || str.charAt(i) == 'u') {
+		for (int i = 0; i < ch.length; i++) {
+			if (ch[i] == 'A' || ch[i] == 'E' || ch[i] == 'I' || ch[i] == 'O' || ch[i] == 'U' || ch[i] == 'a'
+					|| ch[i] == 'e' || ch[i] == 'i' || ch[i] == 'o' || ch[i] == 'u') {
 				count++;
 			}
 		}
-		System.out.println("No of Vowels: "+count);
+		System.out.println("No of Vowels: " + count);
 	}
 
 }

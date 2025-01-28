@@ -9,7 +9,7 @@ public class SumOfNumbers {
 		for (int i = 0; i < str.length(); i++) {
 			if (str.charAt(i) >= 48 && str.charAt(i) <= 57) {
 				int j = str.charAt(i);
-				j = j - 48;
+				j -= 48;
 				sum += j;
 			}
 		}
