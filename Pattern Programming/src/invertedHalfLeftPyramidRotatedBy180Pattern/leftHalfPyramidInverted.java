@@ -1,6 +1,6 @@
-package invertedHalfPyramidRotatedBy180Pattern;
+package invertedHalfLeftPyramidRotatedBy180Pattern;
 
-public class Inverted {
+public class leftHalfPyramidInverted {
 	public static void main(String[] args) {
 		for (int i = 1; i <= 5; i++) {
 			for (int j = 1; j <= 5; j++) {
@@ -49,17 +49,17 @@ public class Inverted {
 			System.out.println();
 		}
 		System.out.println("------ABCDE---");
-//		Inverted Half Pyramid Rotated By 180 Pattern Using (Alphabets)
-		for (char i = 'A'; i <= 'E'; i++) {
-			for (char j = 'A'; j <= j - (i - 'E'); j++) {
-				if (j < i) {
-					System.out.print(" ");
-				} else {
-					System.out.print(j);
-				}
-			}
-			System.out.println();
-		}
+////		Inverted Half Pyramid Rotated By 180 Pattern Using (Alphabets)
+//		for (char i = 'A'; i <= 'E'; i++) {
+//			for (char j = 'A'; j <= j - (i - 'E'); j++) {
+//				if (j < i) {
+//					System.out.print(" ");
+//				} else {
+//					System.out.print(j);
+//				}
+//			}
+//			System.out.println();
+//		}
 	}
 
 }

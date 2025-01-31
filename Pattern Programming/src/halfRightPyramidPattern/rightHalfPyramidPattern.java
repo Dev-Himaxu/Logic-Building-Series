@@ -1,6 +1,6 @@
-package halfPyramidPattern;
+package halfRightPyramidPattern;
 
-public class Pattern {
+public class rightHalfPyramidPattern {
 	public static void main(String[] args) {
 //		Right Angle Triangle Pattern of(*)
 		for (int i = 1; i <= 5; i++) {

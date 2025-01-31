@@ -1,6 +1,6 @@
 package squarePattern;
 
-public class Pattern1 {
+public class SquarePattern {
 	public static void main(String[] args) {
 //		Square pattern of (*);
 		for (int i = 1; i <= 5; i++) {
@@ -30,6 +30,14 @@ public class Pattern1 {
 		for (char i = 'A'; i <= 'E'; i++) {
 			for (char j = 'A'; j <= 'E'; j++) {
 				System.out.print(j);
+			}
+			System.out.println();
+		}
+		System.out.println("-----------------------------");
+//		Square pattern of (Alphabet-AAAAA).
+		for (char i = 'A'; i <= 'E'; i++) {
+			for (char j = 'A'; j <= 'E'; j++) {
+				System.out.print(i);
 			}
 			System.out.println();
 		}
