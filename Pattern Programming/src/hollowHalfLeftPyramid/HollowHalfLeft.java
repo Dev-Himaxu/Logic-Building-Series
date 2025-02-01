@@ -1,10 +1,10 @@
-package hollowHalfRightPyramid;
+package hollowHalfLeftPyramid;
 
-public class HollowRightPyramid {
+public class HollowHalfLeft {
 	public static void main(String[] args) {
 		for (int i = 0; i < 5; i++) {
 			for (int j = 0; j < 5; j++) {
-				if (j == 0 || j == i || i == 4) {
+				if (j + i == 4 || j == 4 || i == 4) {
 					System.out.print("* ");
 				} else {
 					System.out.print("  ");
@@ -12,11 +12,11 @@ public class HollowRightPyramid {
 			}
 			System.out.println();
 		}
-		System.out.println("---01234---------");
-//		Hollow half right pyramid using(Numbers)
+		System.out.println("----01234--------");
+//		Hollow Half Left Pyramid Using (Numbers)
 		for (int i = 0; i < 5; i++) {
 			for (int j = 0; j < 5; j++) {
-				if (j == 0 || j == i || i == 4) {
+				if (j + i == 4 || j == 4 || i == 4) {
 					System.out.print(j + " ");
 				} else {
 					System.out.print("  ");
@@ -24,11 +24,11 @@ public class HollowRightPyramid {
 			}
 			System.out.println();
 		}
-		System.out.println("---44444---------");
-//		Hollow half right pyramid using(Numbers)
+		System.out.println("----44444--------");
+//		Hollow Half Left Pyramid Using (Numbers)
 		for (int i = 0; i < 5; i++) {
 			for (int j = 0; j < 5; j++) {
-				if (j == 0 || j == i || i == 4) {
+				if (j + i == 4 || j == 4 || i == 4) {
 					System.out.print(i + " ");
 				} else {
 					System.out.print("  ");
@@ -36,23 +36,11 @@ public class HollowRightPyramid {
 			}
 			System.out.println();
 		}
-		System.out.println("------EEEEE--------");
-//		Hollow half right pyramid using(Alphabets)
+		System.out.println("----ABCDE--------");
+//		Hollow Half Left Pyramid Using (Alphabets)
 		for (int i = 0; i < 5; i++) {
 			for (int j = 0; j < 5; j++) {
-				if (j == 0 || j == i || i == 4) {
-					System.out.print((char) ('A' + i) + " ");
-				} else {
-					System.out.print("  ");
-				}
-			}
-			System.out.println();
-		}
-		System.out.println("------ABCDE--------");
-//		Hollow half right pyramid using(Alphabets)
-		for (int i = 0; i < 5; i++) {
-			for (int j = 0; j < 5; j++) {
-				if (j == 0 || j == i || i == 4) {
+				if (j + i == 4 || j == 4 || i == 4) {
 					System.out.print((char) ('A' + j) + " ");
 				} else {
 					System.out.print("  ");
@@ -60,6 +48,17 @@ public class HollowRightPyramid {
 			}
 			System.out.println();
 		}
+		System.out.println("----EEEEE--------");
+//		Hollow Half Left Pyramid Using (Alphabets)
+		for (int i = 0; i < 5; i++) {
+			for (int j = 0; j < 5; j++) {
+				if (j + i == 4 || j == 4 || i == 4) {
+					System.out.print((char) ('A' + i) + " ");
+				} else {
+					System.out.print("  ");
+				}
+			}
+			System.out.println();
+		}
 	}
-
 }
