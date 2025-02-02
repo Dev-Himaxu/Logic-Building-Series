@@ -16,13 +16,13 @@ public class DivideOneArray {
 			arr1 = new int[arr.length / 2];
 			arr2 = new int[arr.length / 2];
 		}
-		  for (int i = 0; i < arr1.length; i++) {
-            arr1[i] = arr[i];
-        }
+		for (int i = 0; i < arr1.length; i++) {
+			arr1[i] = arr[i];
+		}
 		System.out.println(Arrays.toString(arr1));
 		for (int i = 0; i < arr2.length; i++) {
-            arr2[i] = arr[arr1.length + i];
-        }
+			arr2[i] = arr[arr1.length + i];
+		}
 		System.out.println(Arrays.toString(arr2));
 	}
 
