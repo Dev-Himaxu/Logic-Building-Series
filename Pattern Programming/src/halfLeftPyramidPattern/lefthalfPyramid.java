@@ -1,4 +1,4 @@
-package LeftHalfPyramid180RotatedPattern;
+package halfLeftPyramidPattern;
 
 public class lefthalfPyramid {
 	public static void main(String[] args) {
